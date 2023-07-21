@@ -2,7 +2,7 @@
 // Arrays (basic)
 // *****************************************
 //                0       1        2
-const alunos = ['Luiz', 'Maria', 'João']
+const alunos = ['Luiz', 'Maria', 'João', 1]
 
 // console.log(alunos instanceof Array) // 'Alunos' é uma instancia array?
 // console.log(alunos.slice(0, 2)) // fatia
