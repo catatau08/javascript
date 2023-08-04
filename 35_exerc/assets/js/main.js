@@ -12,5 +12,5 @@ result.innerHTML += `<${(elementos[1]['tag'])}>` // inserindo uma div no html
 const divResult = document.querySelector('div') // selecionando a div para inserir dentro os elementos
 
 for (i = 0 ; i <= 3 ; i++) { // loop para adicionar os elementos 
-    divResult.innerHTML += `<${(elementos[i]['tag'])}>${(elementos[i]['texto'])}`
+    divResult.innerHTML += `<${elementos[i]['tag']}>${(elementos[i]['texto'])}`
 }
